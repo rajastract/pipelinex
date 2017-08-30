@@ -1,21 +1,22 @@
 pipeline{
-stages{
+ agent any
+stages {
 
-stage('Build'){
-node{
+stage('Build') {
+node {
     
     sh 'echo hi'
 }
 }
 
-stage('Test'){
-node{
+stage('Test') {
+node {
 sh 'echo test '
 }
 }
-stage('deploy'){
+stage('deploy') {
 
-node{
+node {
 sh 'echo deploy'
 }
 
