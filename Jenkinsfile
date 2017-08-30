@@ -1,3 +1,4 @@
+pipeline{
 stages{
 stage 'build'
 steps{
@@ -14,4 +15,5 @@ steps{
 sh 'echo deploy'
 }
 
+}
 }
