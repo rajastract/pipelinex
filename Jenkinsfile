@@ -1,5 +1,17 @@
+stages{
 stage 'build'
-node{
+steps{
     
     sh 'echo hi'
+}
+stage 'test'
+steps{
+sh 'echo test '
+}
+
+stage 'deploy'
+steps{
+sh 'echo deploy'
+}
+
 }
