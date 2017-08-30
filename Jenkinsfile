@@ -1,6 +1,6 @@
-pipeline{
- agent any
-stages {
+
+
+
 
 stage('Build') {
 node {
@@ -22,5 +22,5 @@ sh 'echo deploy'
 
 }
 
-}
-}
+
+
