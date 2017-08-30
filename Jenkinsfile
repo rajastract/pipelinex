@@ -1,4 +1,4 @@
-pipeline{
+
 stages{
 
 stage('Build'){
@@ -21,4 +21,4 @@ sh 'echo deploy'
 
 }
 
-}
+
