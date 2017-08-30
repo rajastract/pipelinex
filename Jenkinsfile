@@ -1,19 +1,19 @@
 pipeline{
 stages{
 
-stage 'build'
+stage('Build'){
 node{
     
     sh 'echo hi'
 }
+}
 
-stage 'test'
-
+stage('Test'){
 node{
 sh 'echo test '
 }
-
-stage 'deploy'
+}
+stage('deploy'){
 
 node{
 sh 'echo deploy'
